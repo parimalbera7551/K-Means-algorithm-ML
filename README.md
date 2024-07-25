@@ -13,31 +13,31 @@ Each image is resized to 512x512 pixels and converted to grayscale.
 
 Each image is flattened into a 1D array.
 Flattened images are concatenated to form a combined dataset.
-K-Means Clustering
-Initialization:
+ # K-Means Clustering
+  # Initialization:
 
 Randomly initialize K centroids from the data.
-Clustering Process:
+  # Clustering Process:
 
 Assign each data point to the nearest centroid.
 Update centroids by calculating the mean of data points assigned to each centroid.
 Iterate the process until convergence or a maximum number of iterations is reached.
-Clustering Execution:
+  # Clustering Execution:
 
 Perform K-means clustering for various values of K (2, 3, 4, 5, 6).
-Visualization
-Cluster Labels:
+# Visualization
+  # Cluster Labels:
 The cluster labels are reshaped to match the original image dimensions.
 Visualize the clustered images for each K value.
-Results
-Cluster Labels:
+# Results
+  # Cluster Labels:
 The shape of cluster labels for each K value is displayed.
-Cluster Visualization:
+  # Cluster Visualization:
 Random images from each clustering result are visualized using matplotlib.
-Files
+ # Files
 band1.gif, band2.gif, band3.gif, band4.gif: Image files used for clustering.
 k_means_clustering.py: Python script implementing the K-means clustering and visualization.
-Dependencies
+ # Dependencies
 numpy
 PIL (Pillow)
 matplotlib
