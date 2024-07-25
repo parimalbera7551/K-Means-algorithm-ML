@@ -39,6 +39,8 @@ band1.gif, band2.gif, band3.gif, band4.gif: Image files used for clustering.
 k_means_clustering.py: Python script implementing the K-means clustering and visualization.
  # Dependencies
 numpy
+
 PIL (Pillow)
+
 matplotlib
   
